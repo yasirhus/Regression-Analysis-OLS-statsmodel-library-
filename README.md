@@ -15,12 +15,12 @@ import statsmodels.api as sm
 To build a regression model, you need to import data file from local file that is either in [.csv] format or in [.txt] or in any other format. 
 
 ### Visualizing the data.
-Regression model has some basic properties and to check some of the properies such as linearity of the data, we can simply plot the variables to see if both independent and dependent variables are linearly correlated or not andf this job can be done using scatter plot (it plots pairs of data). There are some other plots too that can help us to understand the behavior of the data. Here, I visulaized the data using scatter plot which states explain that the data is linearly correlated and we can mode on towards the model.
+Regression model has some basic properties and to check some of the properies such as linearity of the data, we can simply plot the variables to see if both independent and dependent variables are linearly correlated or not andf this job can be done using scatter plot (it plots pairs of data). There are some other plots too that can help us to understand the behavior of the data. Here, I visualized the data using scatter plot which explains that the data is linearly correlated and we can move on towards the model.
 
 ### Building Model 
 
 Once you are satisfied with the data and data is well preprocessed, you can move towards next step which is building the model. 
 
-###Intepretting the Analysis 
+### Intepretting the Analysis 
 Last step, but very important i.e interpretting the model. If we look at the model, our independent variable YearsofExperinece plays an important role in the increase in salary. A years increase in experinece will icrease 9449 Euros in salary or vice versa. The next step is to see how fit the model is that can be analyzed using #R square. Here in my model that value of R-Square is 0.957 which states that Years of experinece explains 95 percent variation in  
 
